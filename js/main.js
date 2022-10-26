@@ -31,4 +31,28 @@ function replaceAWithStar(strin){
 }
 console.log(replaceAWithStar(kint));
 //-----------------------------------
+console.log("6 uzd");
+let string1 = "An American in Paris";
+let string2 = "Breakfast at Tiffany's";
+let string3 = "2001: A Space Odyssey";
+let string4 = "It's a Wonderful Life";
 
+function withoutVowels(string) {
+    var withoutVowels = "";
+    for (var i = 0; i < string.length; i++) {
+        if (!isVowel(string[i])) {
+          withoutVowels += string[i];
+        }
+      }
+      return withoutVowels;
+  }
+  
+  function isVowel(char) {
+    return 'AaEeIiOoUuYy'.includes(char);
+  }
+
+  console.log(withoutVowels(string1));
+  console.log(withoutVowels(string2));
+  console.log(withoutVowels(string3));
+  console.log(withoutVowels(string4));
+  //-------------------------------------
