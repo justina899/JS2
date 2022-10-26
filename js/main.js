@@ -24,3 +24,11 @@ let pavarde3 = "Jonaitis";
 let part1 = vardas2.slice(2, 5) + pavarde2.slice(5, 8);
 console.log(part1);
 //----------------------------------
+console.log("5 uzd");
+let kint = "An American in Paris";
+function replaceAWithStar(strin){
+    return strin.replace(/a/gi, "*");
+}
+console.log(replaceAWithStar(kint));
+//-----------------------------------
+
