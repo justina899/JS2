@@ -56,3 +56,12 @@ function withoutVowels(string) {
   console.log(withoutVowels(string3));
   console.log(withoutVowels(string4));
   //-------------------------------------
+  console.log("7 uzd");
+  function stringGenerator(){
+    return "Star Wars: Episode " + " ".repeat( Math.ceil(Math.random() * 10))+(Math.ceil (Math.random() * 7)+1) + " - A New Hope";
+  }
+  let strin = stringGenerator();
+  console.log(strin);
+  strin = strin.slice(-14,-12);
+  console.log(strin);
+  //--------------------------------------
