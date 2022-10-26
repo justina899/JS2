@@ -18,3 +18,9 @@ let pavarde2 = "Jonaitis";
 let part = vardas2.slice(0, 1) + pavarde2.slice(0, 1);
 console.log(part);
 //---------------------------------
+console.log("4 uzd");
+let vardas3 = "Jonas";
+let pavarde3 = "Jonaitis";
+let part1 = vardas2.slice(2, 5) + pavarde2.slice(5, 8);
+console.log(part1);
+//----------------------------------
